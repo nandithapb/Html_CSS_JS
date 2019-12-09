@@ -1,0 +1,140 @@
+/*```css for body```*/
+body {
+  margin: 0;
+  font-family: helvetica;
+}
+/*````css for main div */
+.div1 {
+  width: 1600px;
+  height: 1000px;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-bottom: 2px solid white;
+  position: absolute;
+}
+/*````css for header */
+.divforheader {
+  width: 1600px;
+  height: 100px;
+  position: fixed;
+  z-index: 50;
+  background-image: url("bg-header.jpg");
+}
+
+.divfortextinheader {
+  width: 300px;
+  height: 100px;
+  margin-left: 350px;
+  top: 2.5em;
+  position: absolute;
+}
+
+.divforimageinheader {
+  width: 300px;
+  height: 150px;
+  margin-left: 630px;
+}
+
+.divfornav {
+  margin-left: 1000px;
+  top: 2em;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+  color:gray;
+}
+
+.triangle {
+  position: absolute;
+  margin-left: 377px;
+}
+/*````css for div2 */
+.div2 {
+  width: 1000px;
+  height: 450px;
+  top: 100px;
+  margin-left: 300px;
+  position: absolute;
+  border-bottom: 1px solid white;
+}
+
+.div2cycle {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 2.5em;
+}
+
+.div2head {
+  position: absolute;
+  margin-left: 550px;
+  font-size: 30px;
+  color: gray;
+  margin-top: .5em;
+}
+
+.div2text {
+  position: absolute;
+  width: 270px;
+  height: 400px;
+  margin-left: 800px;
+  margin-top: 5em;
+}
+/*````css for div2 */
+.div3 {
+  position: absolute;
+  width: 1000px;
+  height: 400px;
+  margin-left: 300px;
+  top: 36em;
+}
+
+.partition1 {
+  position: absolute;
+  width: 240px;
+  height: 350px;
+}
+
+.text {
+  color: gray;
+  font-size: 14px;
+}
+
+.t {}
+
+.t:hover {
+  color: white;
+}
+
+.partition2 {
+  position: absolute;
+  width: 240px;
+  height: 350px;
+  margin-left: 250px;
+}
+
+.partition3 {
+  position: absolute;
+  width: 240px;
+  height: 350px;
+  margin-left: 500px;
+}
+
+.partition4 {
+  position: absolute;
+  width: 240px;
+  height: 350px;
+  margin-left: 750px;
+}
+/*````css for div4 */
+.div4 {
+  width: 1600px;
+  height:25px;
+  position: absolute;
+  top: 950px;
+  padding: 1em;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
