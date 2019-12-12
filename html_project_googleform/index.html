@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Form</title> <!--titile-->
+  </head>
+  <form action="#" method="post"><!--the form starts here-->
+    <fieldset> <!--first field for name and email-->
+      <legend>Your Details:</legend>
+      Name:
+      <input type="text" placeholder="Enter name" name="Username"><br><br>
+      Email:
+      <input type="text" placeholder="Enter email" name="Email">
+    </fieldset><!--first field for name and email ends here-->
+    <br>
+    <fieldset> <!--second field for review-->
+      <legend>Your Review:</legend>
+    How did you hear about us?
+    <select>  <!--for drop down box-->
+      <option value="Google">Google</option>
+      <option value="Whatsapp">Whatsapp</option>
+      <option value="Instagram">Instagram</option>
+    </select>
+    <br><br>
+    Would ypu visit again?
+    <input type="radio" name="yes" value="Yes">Yes  <!--for radio button-->
+    <input type="radio"  name="yes" value="No">No
+    <input type="radio" name="yes" value="Maybe">Maybe
+    <br><br>
+    Comments:
+    <br>
+    <textarea placeholder="Enter your comments here" rows="8" cols="80"></textarea><br><!--for textarea-->
+    <input type="checkbox"> Sign me up for email updates<!--for checkbox-->
+    <br><br>
+    <input type="submit" value="Submit review"><!-- for submit button-->
+  </fieldset><!--second field for review ends here-->
+</form><!--the form ends here-->
+</html>
